@@ -325,6 +325,25 @@ int main(int argc, char** argv)
         done = true;
       if (event.type == SDL_EVENT_WINDOW_CLOSE_REQUESTED && event.window.windowID == SDL_GetWindowID(window))
         done = true;
+      if ((!io.WantCaptureMouse) && (!io.WantCaptureKeyboard))
+      {
+        switch (event.type)
+        {
+        case SDL_EVENT_MOUSE_MOTION:
+          break;
+        case SDL_EVENT_MOUSE_BUTTON_DOWN:
+          break;
+        case SDL_EVENT_MOUSE_BUTTON_UP:
+          break;
+        case SDL_EVENT_KEY_DOWN:
+          break;
+        case SDL_EVENT_KEY_UP:
+          break;
+        default:
+          //printf("%d\n", event.type);
+          break;
+        }
+      }
     }
     if (SDL_GetWindowFlags(window) & SDL_WINDOW_MINIMIZED)
     {
@@ -349,6 +368,7 @@ int main(int argc, char** argv)
       ImGui::Begin("Hello, world!");                          // Create a window called "Hello, world!" and append into it.
 
       ImGui::Text("This is some useful text.");               // Display some text (you can use a format strings too)
+      
       ImGui::Checkbox("Demo Window", &show_demo_window);      // Edit bools storing our window open/close state
       ImGui::Checkbox("Another Window", &show_another_window);
 
