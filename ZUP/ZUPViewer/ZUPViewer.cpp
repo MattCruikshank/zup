@@ -3,6 +3,14 @@
 // https://github.com/ocornut/imgui/blob/master/examples/example_sdl3_opengl3/main.cpp
 // https://github.com/fknfilewalker/imoguizmo
 // https://gist.github.com/koute/7391344
+// https://stackoverflow.com/questions/3484260/opengl-line-width/59688394#59688394
+// https://glm.g-truc.net/0.9.9/index.html
+// https://github.com/g-truc/glm
+// https://www.opengl-tutorial.org/
+// https://www.opengl-tutorial.org/miscellaneous/clicking-on-objects/picking-with-an-opengl-hack/
+// https://www.mbsoftworks.sk/tutorials/opengl3/18-3d-picking-pt1/
+// https://www.mbsoftworks.sk/tutorials/opengl3/
+// https://bcmpinc.wordpress.com/2015/08/18/creating-an-opengl-4-5-context-using-sdl2-and-glad/
 
 // Dear ImGui: standalone example application for SDL3 + OpenGL
 // (SDL is a cross-platform general purpose library for handling windows, inputs, OpenGL/Vulkan/Metal graphics context creation, etc.)
