@@ -43,4 +43,8 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\..\..\glew-2.2.0\bin\Release\x64\glew32.dll" />
+    <CopyFileToFolders Include="..\..\..\freeglut\bin\x64\freeglut.dll" />
+  </ItemGroup>
 </Project>
