@@ -8,9 +8,13 @@
 // https://github.com/g-truc/glm
 // https://www.opengl-tutorial.org/
 // https://www.opengl-tutorial.org/miscellaneous/clicking-on-objects/picking-with-an-opengl-hack/
-// https://www.mbsoftworks.sk/tutorials/opengl3/18-3d-picking-pt1/
 // https://www.mbsoftworks.sk/tutorials/opengl3/
+// https://www.mbsoftworks.sk/tutorials/opengl3/04-going-3d-with-transformations/
+// https://www.mbsoftworks.sk/tutorials/opengl3/18-3d-picking-pt1/
 // https://bcmpinc.wordpress.com/2015/08/18/creating-an-opengl-4-5-context-using-sdl2-and-glad/
+// https://mklimenko.github.io/english/2018/06/23/embed-resources-msvc/
+// https://github.com/MKlimenko/embed
+// https://learnopengl.com/Advanced-OpenGL/Instancing
 
 // Dear ImGui: standalone example application for SDL3 + OpenGL
 // (SDL is a cross-platform general purpose library for handling windows, inputs, OpenGL/Vulkan/Metal graphics context creation, etc.)
